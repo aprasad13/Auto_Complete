@@ -4,10 +4,12 @@ In this project, we will build an auto-complete system.  Auto-complete system is
 - When we google something, we often have suggestions to help us complete our search. 
 - When we are writing an email, we get suggestions telling us possible endings to our sentence.  
 
+Click [Jupiter Notebook](https://github.com/aprasad13/Auto_Complete/blob/master/Auto_Complete.ipynb) to access the detailed code.
+
 ## Outline
 Here are the steps of this project:
 
-1. Load and preprocess data
+1. Load and preprocess data (used twitter data)
     - Load and tokenize data.
     - Split the sentences into train and test sets.
     - Replace words with a low frequency by an unknown marker `<unk>`.
